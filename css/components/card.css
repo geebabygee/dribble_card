@@ -2,22 +2,23 @@
 
 .card {
   margin-top: 50px;
-  /*width: 400px;*/ /*because it takes the width of the container which is centered*/
+  width: 400px; /*because it takes the width of the container which is centered - they used width and to center needed to use margin auto*/
   background-color: white;
   padding: 30px;
   border-radius: 8px;
+  box-shadow: 0 16px 36px rgba(0,0,0,0.2);
+  margin: auto; /*to center it in the container*/
 }
 
 .top-section {
   display: flex;
   margin-bottom: 16px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   position: relative;
 
 }
 .top-section img {
-  /*background-size: cover;*/
   width: 50%;
 }
 
@@ -27,15 +28,15 @@
 
 .top-right-text p {
   opacity: 0.7;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .heart {
   color: #FD77A0;
-  font-size: 40px;
+  font-size: 25px;
   position: absolute;
-  top: 20px;
-  left: 30px;
+  top: 10px;
+  left: 20px;
 }
 
 .stars {
@@ -46,7 +47,7 @@
 /*MIDDLE IMAGE*/
 
 .middle-img {
-  height: 175px;
+  height: 150px;
   width: 100%;
   margin-bottom: 20px;
   object-fit: cover;
@@ -72,6 +73,12 @@
 .active {
   border: 3px solid orange;
 }
+
+
+
+
+
+
 
 
 
