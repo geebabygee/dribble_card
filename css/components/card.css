@@ -1,13 +1,12 @@
 /*TOP SECTION*/
 
 .card {
-  margin-top: 50px;
-  width: 400px; /*because it takes the width of the container which is centered - they used width and to center needed to use margin auto*/
-  background-color: white;
+  width: 400px;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 16px 36px rgba(0,0,0,0.2);
-  margin: auto; /*to center it in the container*/
+  margin: auto;
+  background-color: white;
 }
 
 .top-section {
@@ -52,7 +51,7 @@
   font-size: 20px;
 }
 
-/*MIDDLE IMAGE*/
+/*MIDDLE SECTION*/
 
 .middle-img {
   height: 150px;
